@@ -11,6 +11,7 @@ You need userinfo.json file with contents
          "password": "<YourPassword>",
          "pan_or_dob": "<YourPanNumberORDateOfBirthIn_dd-mm-yyyy_format>"
 }
+         
 Folders are hardcoded please change as per your requirement.
 autologin.py will authenticate user and create file access_token.txt
 BNFStraddle.py will use the file access_token.txt and place orders.
