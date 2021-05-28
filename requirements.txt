@@ -1,0 +1,3 @@
+fyers_api
+yfinance
+nsepy
