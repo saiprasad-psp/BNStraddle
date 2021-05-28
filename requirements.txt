@@ -1,3 +1,5 @@
 fyers_api
 yfinance
 nsepy
+pandas
+requests
