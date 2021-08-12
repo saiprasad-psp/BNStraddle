@@ -91,7 +91,8 @@ def place_sl_order(symbol, price ):
     print(ret)
 
 def get_exp(mnth):
-    weekly_expirys = get_expiry_date(year=today.year,stock = False, month=mnth)
+    weekly_expirys = list(get_expiry_date(year=today.year,stock = False, month=mnth))
+    weekly_expirys.sort()
     for weekly_exp in weekly_expirys:
         diff_days = (weekly_exp - today).days
         if diff_days >= 0 and diff_days < 7 :
